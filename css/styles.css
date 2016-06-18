@@ -13,3 +13,12 @@ h1 { font-family: 'Roboto', sans-serif; color: #26a69a}
 a, a:hover, a:visited { color: #26a69a; text-decoration:none }
 h2 { margin: -6px 0 24px 0;}
 p {margin: 0;}
+
+.site-nav { float: right; line-height: 56px; }
+.site-nav .menu-icon { display: none; }
+.site-nav .page-link { color: #111; line-height: 1.5; }
+.site-nav .page-link:not(:last-child) { margin-right: 20px; }
+@media screen and (max-width: 600px) { 
+.site-nav { position: absolute; top: 19px; right: 20px; background-color: #263238; border: none; border-radius: 0; text-align: right; }
+.mdl-menu__container { margin: 0 16px; }
+}

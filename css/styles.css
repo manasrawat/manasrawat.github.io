@@ -1,0 +1,15 @@
+.mdl-card { min-height: 0; width: 100%; position: relative; overflow: inherit; 
+		    position:fixed; background: #263238; color: #ffffff; border-radius: 0; }
+.my-wrapper { width: auto; max-width: auto; padding: 20px 30px; }
+.mdl-menu__container { margin: 0 45px; }
+html, body { font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 400; line-height: 20px; }
+body { font: normal normal 16px 'Roboto', sans-serif }
+h1 { font-family: 'Roboto', sans-serif; color: #26a69a}
+.site-title, .site-title:visited, .site-title:hover { color: #ffffff; text-decoration: none;}
+.post-title {font-size: 24px;}
+.post-link, .post-link:hover { text-decoration: none; display: inline-block; }
+.page-content { padding:  45px 0 0 0; }
+.post-content h2 {font-size: 45px}
+a, a:hover, a:visited { color: #26a69a; text-decoration:none }
+h2 { margin: -6px 0 24px 0;}
+p {margin: 0;}

@@ -1,0 +1,13 @@
+# Site settings
+title: Manas Rawat's Blog
+email: manas.rawat2002@gmail.com
+description: > 
+  A blog on Android, computer programming, maths and android..
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: cyource
+github_username:  cyource
+repository: cyource/cyource.github.io
+
+# Build settings
+markdown: kramdown

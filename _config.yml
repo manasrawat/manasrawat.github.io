@@ -4,7 +4,8 @@ email: manas.rawat2002@gmail.com
 description: > 
   A blog on Android, computer programming, maths and android.
 baseurl: ""
-url: "http://cyource.github.io"
+url: https://cyource
+enforce_ssl: cyource.me
 twitter_username: cyource
 github_username:  cyource
 repository: cyource/cyource.github.io

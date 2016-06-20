@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello Jekyll"
-date:   2016-06-16 21:50:32 +0100
+date:   2016-06-18 21:50:32 +0100
 categories: general
 ---
 The first thing I though of when I first heard Jekyll was jelly - because it's instinct. I knew it was related to technology, but I still though of Jelly. I don't know why - I was just told by some friends about how it was a useful static-site generator for blogs, and worked especially well with ones hosted on GitHub pages. I wasn't really into blogging then - I shrugged it away.

@@ -12,6 +12,7 @@ h1 { font-family: 'Roboto', sans-serif; color: #26a69a}
 .page-content { padding:  45px 0 0 0; }
 .post-content h2 {font-size: 45px}
 .post-meta { color: #78909C; font: auto }
+.post-category { margin-left: 10px; background-color: #26a69a; color: #ffffff; cursor: auto !important; }
 a, a:hover, a:visited { color: #26a69a; text-decoration:none }
 h2 { margin: -6px 0 24px 0;}
 p {margin: 0;}
@@ -30,4 +31,7 @@ p {margin: 0;}
 .mdl-menu__container.is-visible, .mdl-menu__container.is-animating { right: 10% !important; }
 .site-nav { margin-right: 10% }
 .mdl-button--raised { margin-left: 10% }
+}
+@media screen and (max-width: 546px) {
+.post-category { display: none; }	
 }

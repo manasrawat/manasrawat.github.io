@@ -14,6 +14,7 @@ layout: default
 		
 	<h2>
 		<a class="post-link" itemprop="name headline">{{ page.title }}</a>
+		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   
   <div class="post-content" itemprop="articleBody">
     {{ content }}

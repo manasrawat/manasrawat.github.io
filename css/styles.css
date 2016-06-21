@@ -31,6 +31,3 @@ p {margin: 0;}
 .site-nav { margin-right: 10% }
 .mdl-button--raised { margin-left: 10% }
 }
-@media screen and (max-width: 546px) {
-.category-button { display: none; }	
-} 

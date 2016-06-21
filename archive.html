@@ -3,16 +3,6 @@ layout: page
 title: Archive
 permalink: /archive.html
 ---
-
-	<style>
-	@media screen and (min-width: 801px) { 
-		.post { margin: 0 }
-	}
-	@media screen and (max-width: 546px) {
-		.mdl-button { display: none; }	
-	} 
-	</style>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -22,7 +12,7 @@ permalink: /archive.html
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		  <div class="post-description">
 		  {{ post.description }}
-		  	<button class="mdl-button" style="margin-left: 10px; background-color: #26a69a; color: #ffffff; cursor: auto !important;">
+		  	<button class="mdl-button category-button" style="margin-left: 10px; background-color: #26a69a; color: #ffffff; cursor: auto !important;">
 			{{ post.categories }}
 			</button>
 		  </div>

@@ -6,9 +6,6 @@ layout: default
 	.post-link:hover {
 		color:#26a69a;
 	}
-	@media screen and (max-width: 546px) {
-		.mdl-button { display: none; }	
-	} 
 </style>
 
 <article style="line-height: 24px;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -19,7 +16,7 @@ layout: default
 		<a class="post-link" itemprop="name headline">{{ page.title }}</a>
 		  <div class="post-description">
 		  {{ page.description }}
-		  	<button class="mdl-button" style="margin-left: 10px; background-color: #26a69a; color: #ffffff; cursor: auto !important;">
+		  	<button class="mdl-button category-button" style="margin-left: 10px; background-color: #26a69a; color: #ffffff; cursor: auto !important;">
 			{{ page.categories }}
 			</button>
 		  </div>

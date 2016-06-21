@@ -8,9 +8,10 @@ h1 { font-family: 'Roboto', sans-serif; color: #26a69a}
 .site-title, .site-title:visited, .site-title:hover { color: #ffffff; text-decoration: none; }
 .post-title {font-size: 24px;}
 .post-link, .post-link:hover { text-decoration: none; display: inline-block; }
-.post-description { color: #B0BEC5; font-size: 14px; }
+.post-description { color: #78909C; font-size: 16px; line-height: 24px; margin-bottom: 6px; }
 .page-content { padding:  45px 0 0 0; }
 .post-content h2 {font-size: 45px}
+.post-meta { color: #78909C; font: auto }
 a, a:hover, a:visited { color: #26a69a; text-decoration:none }
 h2 { margin: -6px 0 24px 0;}
 p {margin: 0;}

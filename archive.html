@@ -17,6 +17,12 @@ permalink: /archive.html
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		  <div class="post-description">
+		  {{ post.description }}
+		  	<button class="mdl-button" style="margin-left: 10px; background-color: #26a69a; color: #ffffff; cursor: auto !important">
+			{{ post.categories }}
+			</button>
+		  </div>
         </h2>
       </li>
     {% endfor %}

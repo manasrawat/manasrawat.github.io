@@ -14,7 +14,12 @@ layout: default
 		
 	<h2>
 		<a class="post-link" itemprop="name headline">{{ page.title }}</a>
-		<div><span class="post-description">{{ page.description }}</span></div>
+		  <div class="post-description">
+		  {{ page.description }}
+		  	<button class="mdl-button" style="margin-left: 10px; background-color: #26a69a; color: #ffffff; cursor: auto !important">
+			{{ page.categories }}
+			</button>
+		  </div>
   
   <div class="post-content" itemprop="articleBody">
     {{ content }}

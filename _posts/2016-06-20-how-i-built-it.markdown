@@ -3,7 +3,7 @@ layout: post
 title:  "How I built it"
 date:   2016-06-20 21:50:32 +0100
 categories: code
-description: "Nice post"
+description: "How I developed this blog, and what I used to do so."
 ---
 In this newer post, for my EECS project, I shall be explaining how I developed my blog, and what tools and resources I used to make it what it is.
 <br>

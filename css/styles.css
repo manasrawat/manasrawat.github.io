@@ -8,6 +8,7 @@ h1 { font-family: 'Roboto', sans-serif; color: #26a69a}
 .site-title, .site-title:visited, .site-title:hover { color: #ffffff; text-decoration: none; }
 .post-title {font-size: 24px;}
 .post-link, .post-link:hover { text-decoration: none; display: inline-block; }
+.post-description { color: #B0BEC5 }
 .page-content { padding:  45px 0 0 0; }
 .post-content h2 {font-size: 45px}
 a, a:hover, a:visited { color: #26a69a; text-decoration:none }

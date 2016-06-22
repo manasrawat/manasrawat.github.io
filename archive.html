@@ -9,19 +9,24 @@ margin-left: 0;
 }
 </style>
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+  {% for cat in site.categories %}
+    	<button id="{{ cat | first }}" class="mdl-button" style="margin-bottom: 15px; background-color: #26a69a; color: #ffffff; cursor: auto !important;">
+		{{ cat | first }}
+		</button>
+      {% for posts in cat %}
+	  {% for post in posts %}
+	  	  		{% if post.date %}
+	  <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		  <div class="post-description">
 		  <span style="margin-right: 5px;">{{ post.description }}</span>
-		  	<button class="mdl-button" style="margin-left: 5px; background-color: #26a69a; color: #ffffff; cursor: auto !important;">
-			{{ post.categories }}
-			</button>
 		  </div>
         </h2>
       </li>
+				{% endif %}
+	  {% endfor %}
+	 {% endfor %}
     {% endfor %}
   </ul>

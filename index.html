@@ -1,6 +1,21 @@
 ---
 layout: default
 ---
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".post-content").shorten({
+			"showChars" : 400,
+			"moreText"	: "Read More",
+			"lessText"	: "Less",
+		});
+	});
+</script>
+			
+<style> 
+	a { font-size: 14px; } 
+	.post-content { line-height: 24px; }
+</style>
+
 <div class="home">
 
   <ul class="post-list">
@@ -15,10 +30,11 @@ layout: default
 		  	<a href="/archive.html#{{ post.categories }}"><button class="mdl-button" style="background-color: #26a69a; color: #ffffff;">
 			{{ post.categories }}
 			</button></a>
-		  </div>
-		    <div class="post-content">
-				{{ post.content }}
+		  </div> 
+		    <div class="post-content" style="font-size: 14px">
+				{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 			</div>
+			
         </h2>
       </li>
     {% endfor %}

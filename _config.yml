@@ -12,3 +12,4 @@ repository: cyource/cyource.github.io
 
 # Build settings
 markdown: kramdown
+gems: ['jekyll-github-metadata']

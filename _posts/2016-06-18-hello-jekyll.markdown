@@ -5,19 +5,19 @@ date:   2016-06-18 21:50:32 +0100
 categories: general
 description: "Moving from Blogger to Jekyll"
 ---
-The first thing I thought of when I first heard Jekyll was, well, jelly - because it's instinct. I knew it was related to technology, but I still thought of Jelly. I don't know why - I was just told by some friends about how it was a useful static-site generator for blogs, and worked especially well with ones hosted on GitHub pages. I wasn't really into blogging then - I shrugged it away. 
+The first thing I thought of when I first heard Jekyll was jelly - because it's instinct. I knew it was related to technology, but I still thought of Jelly. I don't know why - I was just told by some friends about how it was a useful static-site generator for blogs, and worked especially well with ones hosted on GitHub pages. I wasn't really into blogging then - I shrugged it away. 
 <br>
 <br>
 _(A few months later)_ I got into blogging. I decided to develop my own blog - but back then, I had only just started HTML. I was always an object-orientated programmer - my "coding arsenal" includes programming languages such as The 3 Cs (C, C++, C#), Java, JS, Python - in addition to markup and styling languages. So when I wanted to make my blog - I didn't have the skills required to use Jekyll, so I decided to use Blogger.
 <br>
-{% highlight ruby %}
+{% highlight java %}
 if (blogger = !cool) {
   while (true) {
     alert("baaad")
   }
 };
 {% endhighlight %}
-{% highlight ruby %}
+{% highlight java %}
 OUTPUT: baa_________________-
 {% endhighlight %}
 Blogger. It was once the world's largest blogging platform for, well, blogging. Creative name? Check - must've taken forever. Fully customizable? Check. I wish. Don't take me wrong - I love a lot of what Google makes. Search? Obviously. Gmail? Pretty neat. Android & Play - Who doesn't? Now, I attempted to use as much HTML I knew in my first blog. It went well. Until it kept adding back junk such as comments, scripts and other stuff I didn't need. Useless code was being forced upon my blog - and very soon, I didn't feel like blogging.
@@ -32,7 +32,7 @@ For some of my free time during the one week holiday, I got out my laptop, setup
 Yesterday, I got out my computer - and finished the PC layout of the blog. I was pretty pleased with myself. Th next day - today - I wrapped up the mobile layout, and then pushed the blog to GitHub. I then proceeded to add my custom domain to it (I didn't really fancy the .github.io subdomain too much - still grateful for it though) and also link it to a CloudFlare certificate. I did have some bits and bobs to fix before fully publishing it live; but one bit after I did that took forever to fix: the favicon. I kept trying different combinations of html tags - but none of them worked - none at all, until when one of them worked (I just contradicted myself) - 
 <br>
 <br>
-{% highlight ruby %}
+{% highlight java %}
 <link rel="shortcut icon" type="image/png" href="[[site.url]]/favicon.png">
 //Note: [ = {
 {% endhighlight %}

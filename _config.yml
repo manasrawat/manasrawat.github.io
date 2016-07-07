@@ -12,5 +12,4 @@ repository: cyource/cyource.github.io
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 gems: ['jekyll-github-metadata']

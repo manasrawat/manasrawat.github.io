@@ -26,7 +26,7 @@ p { margin: 0; }
 .mdl-button--icon { margin-right: 10%; }
 .post-list, .post { margin: 0 10% 0 10%; }
 .site-title { margin-left: 10%; }
-.mdl-menu__container.is-visible, .mdl-menu__container.is-animating { right: 10% !important; }
+.mdl-menu__container.is-visible, .mdl-menu__container.is-animating { right: 9.5% !important; }
 .site-nav { margin-right: 10% }
 .mdl-button--raised { margin-left: 10% }
 }

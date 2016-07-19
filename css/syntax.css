@@ -1,7 +1,7 @@
 /*
 This is the Zenburn syntax.css theme for Pygments
 */
-.highlight code, .highlight pre {color:#fdce93; background-color:#3f3f3f; white-space: pre; overflow: auto;}
+.highlight code, .highlight pre {color:#fdce93; background-color:#212121; white-space: pre; overflow: auto;}
 .highlight .hll {background-color:#222}
 .highlight .c {color:#7f9f7f}
 .highlight .err {color:#e37170; background-color:#3d3535}

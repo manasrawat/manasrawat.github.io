@@ -26,12 +26,9 @@ For a long time, I didn't blog. I was bored of it, had many other commitments - 
 For some of my free time during the one week holiday, I got out my laptop, setup Ruby, Bundler, the required Gems - and Jekyll was all set. I stated earlier that I like some of Google's work - well, I forgot to mention that I absolutley ADORE Material Design, and had known about mdl (material design lite for websites) for ages - I knew that, if I applied it to my blog, some peope would think of it as too mobile-like - but this was my blog, and I definitley going to add it. After adding it's dependancy html tag to my blog's head - then came the fun part. For about two or three days of the holidays, I coded a good amount around an hour a day before the end of year exams came. Another 2 weeks hiatus.
 <br>
 <br>
-Yesterday, I got out my computer - and finished the PC layout of the blog. I was pretty pleased with myself. Th next day - today - I wrapped up the mobile layout, and then pushed the blog to GitHub. I then proceeded to add my custom domain to it (I didn't really fancy the .github.io subdomain too much - still grateful for it though) and also link it to a CloudFlare certificate. I did have some bits and bobs to fix before fully publishing it live; but one bit after I did that took forever to fix: the favicon. I kept trying different combinations of html tags - but none of them worked - none at all, until when one of them worked (I just contradicted myself) - 
-<br>
-<br>
+Yesterday, I got out my computer - and finished the PC layout of the blog. I was pretty pleased with myself. Th next day - today - I wrapped up the mobile layout, and then pushed the blog to GitHub. I then proceeded to add my custom domain to it (I didn't really fancy the .github.io subdomain too much - still grateful for it though) and also link it to a CloudFlare certificate. I did have some bits and bobs to fix before fully publishing it live; but one bit after I did that took forever to fix: the favicon. I kept trying different combinations of html tags - but none of them worked - none at all, until when one of them worked (I just contradicted myself)...
 {% highlight html %}
 <link rel="shortcut icon" type="image/png" href="[[site.url]]/favicon.png">
 //Note: [ = {
 {% endhighlight %}
-<br>
 That... worked. It worked everywhere - apart from IE. So I used a png instead, and it worked - but then I found out it didn't work in Firefox. I then 'experimented' a little by removing ```'[[site.url]]'``` - and it... worked. I apologise to all the Firefox users - I just can't be asked to fix it now - but I'm pretty satisifed my blog's done  - even more so due to the fact that on top of the base Jekyll theme, using mdlite, I coded it. I coded my own blog.

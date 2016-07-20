@@ -9,3 +9,4 @@ twitter_username: cyource
 github_username:  cyource
 repository: cyource/cyource.github.io
 markdown: kramdown
+future: true

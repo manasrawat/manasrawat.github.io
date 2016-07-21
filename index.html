@@ -22,7 +22,7 @@ layout: default
 		  </div> 
 		    <div class="post-content" style="font-size: 14px; line-height: 24px">
 			{% if post.content | size > 400 %}
-				{{ post.content | strip_html | truncate: 400 }}...
+				{{ post.content | strip_html | truncate: 400 }}
 				<a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
 			{% endif %}
 			</div>		

@@ -15,7 +15,7 @@ margin-left: 0;
 		</button>
       {% for posts in cat %}
 	  {% for post in posts %}
-	  	  		{% if post.date %}
+	  	{% if post.date %}
 	  <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
@@ -25,7 +25,7 @@ margin-left: 0;
 		  </div>
         </h2>
       </li>
-				{% endif %}
+		{% endif %}
 	  {% endfor %}
 	 {% endfor %}
     {% endfor %}

@@ -10,11 +10,11 @@ p { margin: 0; }
 .mdl-menu__container { margin: 0 45px; }
 .site-title, .site-title:visited, .site-title:hover { color: #ffffff; text-decoration: none; }
 .post-title {font-size: 24px;}
-.post-link, .post-link:hover { text-decoration: none; display: inline-block; line-height: initial; margin: 10px 0 5px }
+.post-link, .post-link:hover { text-decoration: none; display: inline-block; line-height: initial; margin: 0 0 5px }
 .post-description { color: #78909C; font-size: 16px; line-height: 24px; margin: 2px 0; }
 .page-content { padding:  45px 0 0 0; }
 .post-content h2 {font-size: 45px}
-.post-meta { color: #78909C; font: auto }
+.post-meta { color: #78909C; font: auto; margin-bottom: 10px; }
 .site-nav { float: right; line-height: 56px; }
 .site-nav .menu-icon { display: none; }
 .site-nav .page-link { color: #111; line-height: 1.5; }

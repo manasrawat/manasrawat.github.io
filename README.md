@@ -4,4 +4,4 @@ My Jekyll-powered blog.
 
 ######Uses the [mdl library](https://getmdl.io) by Google.
 
-### [LICENSE](/LICENSE)
+### UNLICENSED

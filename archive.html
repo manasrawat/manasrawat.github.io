@@ -17,7 +17,7 @@ margin-left: 0;
 	  {% for post in posts %}
 	  	{% if post.date %}
 	  <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		  <div class="post-description">

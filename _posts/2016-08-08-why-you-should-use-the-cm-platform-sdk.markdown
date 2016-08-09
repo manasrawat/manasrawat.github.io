@@ -15,8 +15,7 @@ CustomTile tile = new CustomTile.Builder(this)
     .setOnClickIntent(pending) //A pendingIntent is used for the action
     .hasSensitiveData(true) //If the tile can be shown in the lock screen or not
     .build();
-CMStatusBarManager.getInstance(this)
-    .publishTile(id, tile);
+CMStatusBarManager.getInstance(this).publishTile(id, tile);
 {% endhighlight %}
 <br>
 The full code can be accessed at the <a href="https://github.com/cyource/cyapps_Quickile">github repo</a>. All you need to do to access the SDK's packages is add this line to your /app ```build.gradle```:

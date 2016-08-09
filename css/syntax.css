@@ -1,7 +1,8 @@
 /*
 This is a slightly modified version of the Zenburn syntax.css theme for Pygments, apapted for Rouge.
 */
-.highlight code, .highlight pre {color:#fdce93; background-color:#161E21; white-space: pre; overflow: auto;}
+.highlight code, .highlight pre {color:#fdce93; background-color:#161E21; white-space: pre; overflow: auto; }
+.highlight, .highlight figure, .highlight pre { margin-bottom: 0px; }
 .highlight .hll {background-color:#222}
 .highlight .c {color:#7f9f7f}
 .highlight .err {color:#e37170; background-color:#3d3535}

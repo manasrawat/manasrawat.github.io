@@ -13,6 +13,7 @@ The apt-get package manager was fairly easy-to-use, and this 'native' Bash worke
 bundle exec jekyll build
 bundle exec jekyll serve --force_polling
 {% endhighlight %}
+<br>
 Unfortunatley, inotify isn't really supported that well - yet. So this means I have to use the more 'expensive' method of viewing change locally, via forcing polling. Another minor problem is the fact that it's case sensetive - but that doesn't really bother me much. But what does bother me, is the fact I'm unable to access directories of WSL directly - and though via some *ways* I can, I still can't change any WSL-files (changes made to files under the WSL AppData directory aren't reflected) - this limits the ammount to which I can customize apps, ie Irssi notifcations and creating permenant WSL-environmental variables. Oh, and another plus of WSL that I forgot to mention, is running GUI Linux apps via a third-party X Server, with me using Xming. I haven't really required GUI Linux apps *yet*, but it's nice to just have it setup - knowing your PC is now capable of running them.
 <br>
 <br>

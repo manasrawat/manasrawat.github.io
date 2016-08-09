@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archive
-permalink: /archive
+permalink: /posts-archive
 ---
 <style>
 .post-list {
@@ -18,7 +18,7 @@ margin-left: 0;
 	  	{% if post.date %}
 	  <li>
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <h2>
+        <h2 class="post-container">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		  <div class="post-description">
 		  <span style="margin-right: 5px;">{{ post.description }}</span>

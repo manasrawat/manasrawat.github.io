@@ -8,11 +8,11 @@ layout: default
       <li>
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
 		
-        <h2>
+        <h2 class="post-container">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		  <div class="post-description">
 		  <span style="margin-right: 5px;">{{ post.description }}</span>
-		  	<a href="/archive#{{ post.categories }}"><button class="mdl-button" style="background-color: #26a69a; color: #ffffff;">
+		  	<a href="/posts-archive#{{ post.categories }}"><button class="mdl-button" style="background-color: #26a69a; color: #ffffff;">
 			{{ post.categories }}
 			</button></a>
 		  </div> 

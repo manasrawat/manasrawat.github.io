@@ -9,7 +9,7 @@ Back in March, starting with Windows Insider Build something-something-something
 <br>
 <br>
 The apt-get package manager was fairly easy-to-use, and this 'native' Bash worked better with Git, Jekyll, Bundler and Ruby than I had ever been able to, with Git Bash. Within a few hours, I had ditched their Windows variations in favour of their Linux ones. I even got rid of Windows programs such as HexChat in favour of the command-line based Irssi. Unlike Cygwin, which recompiles some existing Linux packages to make them runnable on Windows, or VMs, Linux binaries run directly from Windows via WSL - without being recompiled or launched from a virtual environment. Not only is it faster, but it also saves MUCH more space. However, WSL-Bash doesn't come without some downsides.
-{% highlight sh %}
+{% highlight sh linenos %}
 bundle exec jekyll build
 bundle exec jekyll serve --force_polling
 {% endhighlight %}

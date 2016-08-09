@@ -9,7 +9,7 @@ The first thing I thought of when I first heard Jekyll was jelly - because it's 
 <br>
 <br>
 _(A few months later)_ I got into blogging. I decided to develop my own blog - but back then, I had only just started HTML. I was always an object-orientated programmer - my "coding arsenal" includes programming languages such as The 3 Cs (C, C++, C#), Java, JS, Python - in addition to markup and styling languages. So when I wanted to make my blog - I didn't have the skills required to use Jekyll, so I decided to use Blogger.
-{% highlight js %}
+{% highlight js linenos %}
 if (!bloggerIsCool) {
   while (true) {
     alert("baaad");
@@ -27,7 +27,7 @@ For some of my free time during the one week holiday, I got out my laptop, setup
 <br>
 <br>
 Yesterday, I got out my computer - and finished the PC layout of the blog. I was pretty pleased with myself. Th next day - today - I wrapped up the mobile layout, and then pushed the blog to GitHub. I then proceeded to add my custom domain to it (I didn't really fancy the .github.io subdomain too much - still grateful for it though) and also link it to a CloudFlare certificate. I did have some bits and bobs to fix before fully publishing it live; but one bit after I did that took forever to fix: the favicon. I kept trying different combinations of html tags - but none of them worked - none at all, until when one of them worked (I just contradicted myself)...
-{% highlight html %}
+{% highlight html linenos %}
 <link rel="shortcut icon" type="image/png" href="[[site.url]]/favicon.png">
 //Note: [ = {
 {% endhighlight %}

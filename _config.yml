@@ -5,7 +5,6 @@ description: >
 baseurl: ""
 url: https://cyource
 enforce_ssl: cyource.me
-twitter_username: cyource
 github_username:  cyource
 repository: cyource/cyource.github.io
 markdown: kramdown

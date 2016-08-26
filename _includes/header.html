@@ -12,17 +12,9 @@
 		</button>
 		<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu">
 		
-		{% if site.github_username %}
           <li class="mdl-menu__item" onclick="location.href='http://github.com/cyource'">
             {% include icon-github.html username=site.github_username %}
           </li>
-        {% endif %}
-		  
-		{% if site.twitter_username %}
-          <li class="mdl-menu__item" onclick="location.href='http://twitter.com/cyource'">
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-        {% endif %}
 	
           <li class="mdl-menu__item" onclick="location.href='http://plus.google.com/+manasmrawat'">
             {% include icon-google.html %}

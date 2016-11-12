@@ -10,6 +10,7 @@ p { margin: 0; }
 .my-wrapper { width: auto; max-width: auto; padding: 20px 30px; }
 .mdl-menu__container { margin: 0 45px; }
 .site-title, .site-title:visited, .site-title:hover { color: #ffffff; text-decoration: none; }
+.nav-item { color: #ffffff; text-decoration: none; font-family: "Roboto"; display: inline-block; }
 .post-container { margin: -6px 0 24px 0; line-height: 0; }
 .post-title {font-size: 24px;}
 .post-link, .post-link:hover { text-decoration: none; display: inline-block; line-height: initial; margin: 0 0 5px }
@@ -22,10 +23,14 @@ p { margin: 0; }
 .site-nav .page-link { color: #111; line-height: 1.5; }
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 @media screen and (max-width: 1049px) { 
+.nav-desktop { display: none; }
+.nav-mobile { display: block; }
 .site-nav { position: absolute; top: 19px; right: 20px; background-color: #263238; border: none; border-radius: 0; text-align: right; }
 .mdl-menu__container { margin: 0 16px; }
 }
 @media screen and (min-width: 1050px) {
+.nav-desktop { display: block; }
+.nav-mobile { display: none; }
 .mdl-button--icon { margin-right: 10%; }
 .post-list, .post { margin: 0 10% 0 10%; }
 .site-title { margin-left: 10%; }

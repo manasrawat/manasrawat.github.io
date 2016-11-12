@@ -7,28 +7,34 @@
 
     <nav class="site-nav">
 
-		<button id="menu" class="mdl-button mdl-js-button mdl-button--icon">
-			<i class="material-icons">more_vert</i>
-		</button>
-		<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu">
-		
-          <li class="mdl-menu__item" onclick="location.href='http://github.com/cyource'">
-            {% include icon-github.html username=site.github_username %}
-          </li>
+		<div class="nav-desktop">
+			<a href="https://github.com/munowse">
+				<img src="/ghub.png" style="margin-right: 10px; height: 30px"/>
+			</a>
+			<a href="/posts-archive">
+				<div class="nav-item" style="margin-right: 10px;">Archive</div>
+			</a>
+			<a href="/about">
+				<div class="nav-item">About</div>
+			</a>
+		 </div>
 	
-          <li class="mdl-menu__item" onclick="location.href='http://plus.google.com/+manasmrawat'">
-            {% include icon-google.html %}
-          </li>
-		  
-          <a href="/posts-archive">
-		  <li class="mdl-menu__item">Archive</li>
-		  </a>
-		  
-		  <a href="/about">
-		  <li class="mdl-menu__item">About</li>
-		  </a>
-		
-		</ul>
+		<div class="nav-mobile">
+			<button id="menu" class="mdl-button mdl-js-button mdl-button--icon">
+				<i class="material-icons">more_vert</i>
+			</button>
+			<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="menu">
+				<a href="https://github.com/munowse">
+					<li class="mdl-menu__item">My GitHub</li>
+				</a>
+				<a href="/posts-archive">
+					<li class="mdl-menu__item">Archive</li>
+				</a>
+				<a href="/about">
+					<li class="mdl-menu__item">About</li>
+				</a>
+			</ul>
+		</div>
 
     </nav>
 

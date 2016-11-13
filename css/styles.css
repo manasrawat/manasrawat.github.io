@@ -22,6 +22,7 @@ p { margin: 0; }
 .site-nav .menu-icon { display: none; }
 .site-nav .page-link { color: #111; line-height: 1.5; }
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
+.mdl-button:hover, .mdl-button:active { background-color: transparent; }
 @media screen and (max-width: 1049px) { 
 .nav-desktop { display: none; }
 .nav-mobile { display: block; }

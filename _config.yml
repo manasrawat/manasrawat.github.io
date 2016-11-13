@@ -1,12 +1,12 @@
-title: The River of Mice Stuff
+title: River Logs
 email: manas.rawat2002@gmail.com
 description: > 
-  A blog on Android, computer programming, maths and android.
+  A blog on Android, computer programming and more.
 baseurl: ""
-url: https://cyource
+url: https://munowse.github.io
 enforce_ssl: cyource.me
-github_username:  cyource
-repository: cyource/cyource.github.io
+github_username:  munowse
+repository: munowse/munowse.github.io
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
 future: true

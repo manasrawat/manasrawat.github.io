@@ -8,7 +8,10 @@ description: "Moving from Blogger to Jekyll"
 The first thing I thought of when I first heard Jekyll was jelly - because it's instinct. I knew it was related to technology, but I still thought of Jelly. I don't know why - I was just told by some friends about how it was a useful static-site generator for blogs, and worked especially well with ones hosted on GitHub pages. I wasn't really into blogging then - I shrugged it away. 
 <br>
 <br>
-_(A few months later)_ I got into blogging. I decided to develop my own blog - but back then, I had only just started HTML. I was always an object-orientated programmer - my "coding arsenal" includes programming languages such as The 3 Cs (C, C++, C#), Java, JS, Python - in addition to markup and styling languages. So when I wanted to make my blog - I didn't have the skills required to use Jekyll, so I decided to use Blogger.
+*A few months later*...
+<br>
+<br>
+I got into blogging. I decided to develop my own blog - but back then, I had only just started HTML. I was always an object-orientated programmer - my "coding arsenal" includes programming languages such as The 3 Cs (C, C++, C#), Java, JS, Python - in addition to markup and styling languages. So when I wanted to make my blog - I didn't have the skills required to use Jekyll, so I decided to use Blogger.
 {% highlight js linenos %}
 if (!bloggerIsCool) {
   while (true) {

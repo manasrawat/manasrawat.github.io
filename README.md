@@ -1,4 +1,4 @@
-# [cyource.me](https://cyource.me)
+# [River Logs](https://cyource.me)
 
 My Jekyll-powered blog.
 

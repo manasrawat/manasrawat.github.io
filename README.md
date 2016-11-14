@@ -1,4 +1,4 @@
-# [River Logs](https://cyource.me)
+# [River Logs](https://munowse.github.io)
 
 My Jekyll-powered blog.
 

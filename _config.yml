@@ -8,5 +8,12 @@ enforce_ssl: cyource.me
 github_username:  munowse
 repository: munowse/munowse.github.io
 markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:category/:year/:month/:day/:title
 future: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: general

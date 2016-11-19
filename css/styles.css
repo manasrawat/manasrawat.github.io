@@ -1,4 +1,4 @@
-html, body { font-size: 14px; font-weight: 400; line-height: 20px; font-family: Roboto; font-weight: 400; }
+html, body { font-size: 14px; font-weight: 400; line-height: 20px; font-family: "Roboto","Helvetica","Arial",sans-serif; font-weight: 400; }
 h1 { color: #26a69a}
 a, a:hover, a:visited { color: #26a69a; text-decoration:none }
 h1, h2, h3, h4, h5 {margin: 0px; padding: 0px;}
@@ -10,7 +10,7 @@ p { margin: 0; }
 .my-wrapper { width: auto; max-width: auto; padding: 20px 30px; }
 .mdl-menu__container { margin: 0 45px; }
 .site-title, .site-title:visited, .site-title:hover { color: #ffffff; text-decoration: none; font-weight: 400; }
-.nav-item { color: #ffffff; text-decoration: none; font-family: Roboto; font-weight: 400; display: inline-block; }
+.nav-item { color: #ffffff; text-decoration: none; font-family: "Roboto","Helvetica","Arial",sans-serif; font-weight: 400; display: inline-block; }
 .post-container { margin: -6px 0 24px 0; line-height: 0; }
 .post-title {font-size: 24px;}
 .post-link, .post-link:hover { text-decoration: none; display: inline-block; line-height: initial; margin: 0 0 5px }

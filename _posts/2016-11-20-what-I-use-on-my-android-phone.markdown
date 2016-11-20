@@ -29,7 +29,7 @@ Like Nova Launcher Prime, **Solid Explorer** is definitely a worthwile investmen
 <br>
 <br>
 
-### Browser <img style="height:45px" src="http://www.iconarchive.com/download/i98306/dakirby309/simply-styled/Google-Chromium.ico"/>
+### Browser <img style="height:45px" src="https://www.iconarchive.com/download/i98306/dakirby309/simply-styled/Google-Chromium.ico"/>
 **Chromium** is my phone's web browser, installed and automatically updated by Federico Dossena's free and open source app **Chromium Auto Updater** ([check out it's source code on GitHub](https://github.com/adolfintel/chromiumUpdater) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.dosse.chromiumautoupdater)). These two apps, combined, grant a pleasent, feature-rich and efficent experience.
 <br>
 <br>
@@ -40,4 +40,4 @@ Most of us Androiders can't live without Google Play - and that includes me. How
 <br>
 
 ### Other stuff
-I also use the **OnePlus Gallery** app (from [apkmirror](http://www.apkmirror.com/apk/oneplus-ltd/oneplus-gallery/oneplus-gallery-1-2-1-release/oneplus-gallery-1-2-1-android-apk-download/)), Motorola's **Command Center widget** (from [XDA](http://forum.xda-developers.com/moto-maxx/themes-apps/moto-z-command-center-widget-t3417171)), **Hangouts** (for my SMS) and **ROM Manager** (for restoring apps after flashing new ROMs/switching build paths).
+I also use the **OnePlus Gallery** app (from [apkmirror](https://www.apkmirror.com/apk/oneplus-ltd/oneplus-gallery/oneplus-gallery-1-2-1-release/oneplus-gallery-1-2-1-android-apk-download/)), Motorola's **Command Center widget** (from [XDA](https://forum.xda-developers.com/moto-maxx/themes-apps/moto-z-command-center-widget-t3417171)), **Hangouts** (for my SMS) and **ROM Manager** (for restoring apps after flashing new ROMs/switching build paths).

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Bash on Ubuntu on Windows"
-date:   2016-07-20 21:50:32 +0100
+date:   2016-07-20 00:00:00 +0000
 category: general
 description: "The pros and cons of the Windows Subsystem for Linux's unix shell"
 ---

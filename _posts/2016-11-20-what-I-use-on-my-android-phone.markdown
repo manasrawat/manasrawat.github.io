@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What I use on my Android phone"
-date:   2016-11-20 09:50:32 +0100
+date:   2016-11-20 00:00:00 +0000
 category: android
 description: "The things I can't live without"
 ---
@@ -14,7 +14,7 @@ If it wasn't abvious from my previous posts, I run **CyanogenMod** (CM14.1 night
 <br>
 <br>
 
-### Custom Recovery <img style="height:45px" src="http://lh6.ggpht.com/wTyAuL3K0zm24DBG5vIcM6AECpWQBmfasI_7FK6yWaA6ITTKP1az8KbaOg2VxwNsbwQO=w256"/>
+### Custom Recovery <img style="height:45px" src="https://lh6.ggpht.com/wTyAuL3K0zm24DBG5vIcM6AECpWQBmfasI_7FK6yWaA6ITTKP1az8KbaOg2VxwNsbwQO=w256"/>
 TWRP FTW! Among the many, many reasons why I use this (including it being like one of the only 2 custom recoveries availiable - and the only one still actively developed), it providing a touch-sensitive graphical user interface is one.
 <br>
 <br>

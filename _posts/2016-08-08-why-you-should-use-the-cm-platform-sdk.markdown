@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why you should use the CM Platform SDK"
-date:   2016-08-08 09:50:32 +0100
+date:   2016-08-08 00:00:00 +0000
 category: android
 description: "Find out why you should be using the CyanogenMod Platform SDK to develop apps"
 ---

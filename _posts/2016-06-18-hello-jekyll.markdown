@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello Jekyll"
-date:   2016-06-18 21:50:32 +0100
+date:   2016-06-18 00:00:00 +0000
 category: general
 description: "Moving from Blogger to Jekyll"
 ---

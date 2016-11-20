@@ -4,7 +4,7 @@ description: >
   A blog on Android, computer programming and more.
 baseurl: ""
 url: https://munowse.github.io
-enforce_ssl: cyource.me
+enforce_ssl: munowse.github.io
 github_username:  munowse
 repository: munowse/munowse.github.io
 markdown: kramdown

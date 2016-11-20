@@ -3,8 +3,8 @@ email: manas.rawat2002@gmail.com
 description: > 
   A blog on Android, computer programming and more.
 baseurl: ""
-url: https://munowse.github.io
-enforce_ssl: munowse.github.io
+url: https://cyource.me
+enforce_ssl: cyource.me
 github_username:  munowse
 repository: munowse/munowse.github.io
 markdown: kramdown

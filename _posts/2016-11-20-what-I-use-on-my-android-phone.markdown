@@ -29,7 +29,7 @@ Like Nova Launcher Prime, **Solid Explorer** is definitely a worthwile investmen
 <br>
 <br>
 
-### Browser <img style="height:45px" src="https://www.iconarchive.com/download/i98306/dakirby309/simply-styled/Google-Chromium.ico"/>
+### Browser <img style="height:45px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Chromium_Material_Icon-256x256.png/80px-Chromium_Material_Icon-256x256.png"/>
 **Chromium** is my phone's web browser, installed and automatically updated by Federico Dossena's free and open source app **Chromium Auto Updater** ([check out it's source code on GitHub](https://github.com/adolfintel/chromiumUpdater) and [get it on Google Play](https://play.google.com/store/apps/details?id=com.dosse.chromiumautoupdater)). These two apps, combined, grant a pleasent, feature-rich and efficent experience.
 <br>
 <br>

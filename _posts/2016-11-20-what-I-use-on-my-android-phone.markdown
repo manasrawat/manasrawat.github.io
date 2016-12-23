@@ -4,6 +4,7 @@ title:  "What I use on my Android phone"
 date:   2016-11-20 00:00:00 +0000
 category: android
 description: "The things I can't live without"
+comments: true
 ---
 The thing that makes Android superior to any other mobile operating system is customization - the way we can change, create and add. Whether it's Custom ROMs, recoveries, launchers, great applications or even custom kernels, Android enables us to tweak every bit of it, to our taste. That's why it's the mobile OS I use. Not because it's open source, not because my Moto G was at a fairly good price - because it's a "personal OS", quite literally. In this post (haven't had one in ages - sorry about that. Life and stuf...), I'll be giving a glimpse at how my phone is.
 <br>

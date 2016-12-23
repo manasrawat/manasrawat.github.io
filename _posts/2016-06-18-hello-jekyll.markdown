@@ -4,6 +4,7 @@ title:  "Hello Jekyll"
 date:   2016-06-18 00:00:00 +0000
 category: general
 description: "Moving from Blogger to Jekyll"
+comments: true
 ---
 The first thing I thought of when I first heard Jekyll was jelly - because it's instinct. I knew it was related to technology, but I still thought of Jelly. I don't know why - I was just told by some friends about how it was a useful static-site generator for blogs, and worked especially well with ones hosted on GitHub pages. I wasn't really into blogging then - I shrugged it away. 
 <br>

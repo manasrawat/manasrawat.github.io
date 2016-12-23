@@ -4,6 +4,7 @@ title:  "Using Bash on Ubuntu on Windows"
 date:   2016-07-20 00:00:00 +0000
 category: general
 description: "The pros and cons of the Windows Subsystem for Linux's unix shell"
+comments: true
 ---
 Back in March, starting with Windows Insider Build something-something-something-somthing-something, Microsoft released the Windows Subsystem for Linux, which is, as it's name states, well, a Windows Subsystem for Linux. That name really did a good job of explaining it and also works pretty well, unlike project codenames of some other stuff.. (cough, "Nougat", cough). However long ago it came out, it was only recently that I re-opted back into the Insider Program after leaving it a year ago, to check out this new software.
 <br>

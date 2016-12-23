@@ -21,8 +21,11 @@ layout: default
 			</button></a>
 		  </div>
   
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-</h2>
+		<div class="post-content" itemprop="articleBody">
+			{{ content }}
+		</div>
+	</h2>
+	
+	{% include disqus.html %}
+	
 </article>

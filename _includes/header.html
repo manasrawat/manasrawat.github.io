@@ -1,15 +1,16 @@
 <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
-<header class="mdl-card mdl-shadow--2dp">
 
-  <div class="my-wrapper">
+<header class="site-header">
 
-	<div style="display: inline-flex; align-items:center;" class="title-wrap">
+  <div class="wrapper" style="padding: 20px 30px">
+
+    <div style="display: inline-flex; align-items:center;" class="title-wrap">
 		<a href="https://github.com/munowse">
 			<img src="/res/munowse.png" title="My GitHub" style="margin-right: 20px; height: 40px; border-radius: 50%;"/>
 		</a>
 		<a class = "site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 	</div>
-	
+
     <nav class="site-nav">
 
 		<!--desktop navigation-->
@@ -25,7 +26,7 @@
 		<!--mobile navigation-->
 		<div class="nav-mobile">
 			<button id="menu" class="mdl-button mdl-js-button mdl-button--icon">
-				<i class="material-icons">more_vert</i>
+				<i class="material-icons" style="color: #ffffff">more_vert</i>
 			</button>
 			<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu" for="menu">
 				<a href="/posts-archive">

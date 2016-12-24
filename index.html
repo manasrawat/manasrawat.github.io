@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-<div class="home">
+<style>
+.site-title { pointer-events: none; cursor: default; }
+</style>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-		
+<ul class="post-list">
+	{% for post in site.posts %}
+	<li>
+		<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <h2 class="post-container">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		  <div class="post-description">
@@ -23,8 +24,6 @@ layout: default
 			{% endif %}
 			</div>		
         </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+	</li>
+	{% endfor %}
+</ul>

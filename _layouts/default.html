@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
-  {% include head.html %}
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="shortcut icon" href="/res/munowse.png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  </head>
 
   <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+				
+			<a href="{{ site.baseurl }}/" id="home-click">
+				<img class="site-avatar" src="{{site.baseurl}}/res/munowse.png"/>
+				<h1 class="site-name">{{ site.name }}</h1>
+			 </a>
 
-    {% include header.html %}
+            <!--desktop-->
+            <nav class="nav-desktop">
+                <a id="blog" href="{{ site.baseurl }}/">Blog</a>
+                <a id="about" href="{{ site.baseurl }}/about">About</a>
+				<a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
+            </nav>
 
-	<div style="height: 96px"></div>
+            <!--mobile-->
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+            <div class="nav-mobile">
+                <img src="/res/menu.png"/>
+                <div id="menu-items">
+                    <a id="blog" href="{{ site.baseurl }}/">Blog</a>
+                    <a id="about" href="{{ site.baseurl }}/about">About</a>
+					<a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
+                </div>
+            </div>
+
+        </header>
       </div>
     </div>
 
-    {% include footer.html %}
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
 
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <div class="icons-wrapper">
+            <a href="https://github.com/munowse"><img src="/res/icons/github.png"/></a>
+            <a href="{{ site.baseurl }}/feed.xml"><img src="/res/icons/feed.png"/></a>
+            <a href="https://plus.google.com/+manasmrawat"><img src="/res/icons/google.png"/></a>
+			<a href="mailto:manas.rawat2002@gmail.com"><img src="/res/icons/email.png"/></a>
+          </div>
+          <br />
+          <span>© Manas Rawat 2016 • <a href="https://github.com/munowse/munowse.github.io">Source code</a> <br />Powered by <a href="https://jekyllrb.com/">Jekyll</a> and hosted on GitHub pages</span>
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+	
   </body>
-
 </html>

@@ -1,24 +1,15 @@
 ---
 layout: default
 ---
-<article style="line-height: 24px;" class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-	<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-		
-	<h2 class="post-container">
-		<a class="post-link" itemprop="name headline">{{ page.title }}</a>
-		  <div class="post-description">
-		  <span style="margin-right: 5px;">{{ page.description }}</span>
-		  	<a href="/posts-archive#{{ post.categories }}"><button class="mdl-button" style="background-color: #26a69a; color: #ffffff;">
-			{{ page.categories }}
-			</button></a>
-		  </div>
+<article class="post">
+  <h1>{{ page.title }}</h1>
   
-		<div class="post-content" itemprop="articleBody">
-			{{ content }}
-		</div>
-	</h2>
-	
-	{% include disqus.html %}
-	
+  <span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% include disqus.html %}
 </article>

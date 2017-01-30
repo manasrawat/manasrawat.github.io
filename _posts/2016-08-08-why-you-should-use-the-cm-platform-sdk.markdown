@@ -3,7 +3,6 @@ layout: post
 title:  "Why you should use the CM Platform SDK"
 date:   2016-08-08 00:00:00 +0000
 category: android
-description: "Find out why you should be using the CyanogenMod Platform SDK to develop apps"
 comments: true
 ---
 CyanogenMod is the largest Android custom ROM by far - and for many reasons, the best. Smooth (mostly), highly customizable and developer-friendly - it's got all the perks a custom ROM can offer. Something that's not as popular as the ROM itself, but is just as great, is the CyangenMod Platform SDK. It enables you to add to your apps framework level features - whether it's creating quick custom tiles, profiles, alarms via the CM DeskClock - all using a set of useful APIs. Why should you use it? So your apps can take full advantage of the extra functionality available for them to use. In fact, one of my own projects, Quickile, uses the Custom tiles package, to create custom tiles for apps. Here is a quick snippet of some of the Tile-generation part of the code:

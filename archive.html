@@ -1,32 +1,30 @@
 ---
-layout: page
+layout: default
 title: Archive
-permalink: /posts-archive
+permalink: /archive/
 ---
 <style>
-.post-list {
-margin-left: 0;
+.posts {
+  margin-top: 35px;
+}
+#archive {
+    pointer-events: none;
+    cursor: default;
+    font-weight: bold;
 }
 </style>
-  <ul class="post-list">
+
+<div class="posts">
   {% for cat in site.categories %}
-    	<button id="{{ cat | first }}" class="mdl-button" style="margin-bottom: 15px; background-color: #26a69a; color: #ffffff; cursor: auto !important;">
-		{{ cat | first }}
-		</button>
-      {% for posts in cat %}
+    <a id="{{ category | first }}" href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ cat | first }}</a>
+	<div class="cat">
+    {% for posts in cat %}
 	  {% for post in posts %}
 	  	{% if post.date %}
-	  <li>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <h2 class="post-container">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		  <div class="post-description">
-		  <span style="margin-right: 5px;">{{ post.description }}</span>
-		  </div>
-        </h2>
-      </li>
+		  <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		{% endif %}
 	  {% endfor %}
-	 {% endfor %}
     {% endfor %}
-  </ul>
+	</div>
+  {% endfor %}
+</div>

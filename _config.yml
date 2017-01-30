@@ -1,4 +1,4 @@
-title: River Logs
+name: River Logs
 email: manas.rawat2002@gmail.com
 description: > 
   A blog on Android, computer programming and more.
@@ -17,3 +17,5 @@ defaults:
       type: "posts"
     values:
       category: general
+gems:
+  - jekyll-feed

@@ -2,28 +2,31 @@
 layout: default
 ---
 <style>
-.site-title { pointer-events: none; cursor: default; }
+#blog {
+    pointer-events: none;
+    cursor: default;
+    font-weight: bold;
+}
+#home-click {
+    pointer-events: none;
+    cursor: default;
+}
 </style>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-<ul class="post-list">
-	{% for post in site.posts %}
-	<li>
-		<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <h2 class="post-container">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		  <div class="post-description">
-		  <span style="margin-right: 5px;">{{ post.description }}</span>
-		  	<a href="/posts-archive#{{ post.categories }}"><button class="mdl-button" style="background-color: #26a69a; color: #ffffff;">
-			{{ post.categories }}
-			</button></a>
-		  </div> 
-		    <div class="post-content" style="font-size: 14px; line-height: 24px">
-			{% if post.content | size > 400 %}
-				{{ post.content | strip_html | truncate: 400 }}
-				<a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
-			{% endif %}
-			</div>		
-        </h2>
-	</li>
-	{% endfor %}
-</ul>
+      <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	  
+	  <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+
+      <div class="entry">
+		{{ post.content | truncate: 400 }}
+      </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{post.category}}</a>
+
+    </article>
+  {% endfor %}
+</div>

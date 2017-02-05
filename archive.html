@@ -8,15 +8,19 @@ permalink: /archive/
   margin-top: 35px;
 }
 #archive {
-    pointer-events: none;
-    cursor: default;
-    font-weight: bold;
+  pointer-events: none;
+  cursor: default;
+  font-weight: bold;
+}
+.read-more {
+  pointer-events: none;
+  cursor: default;
 }
 </style>
 
 <div class="posts">
   {% for cat in site.categories %}
-    <a id="{{ category | first }}" href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ cat | first }}</a>
+    <a id="{{ cat | first }}" href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ cat | first }}</a>
 	<div class="cat">
     {% for posts in cat %}
 	  {% for post in posts %}

@@ -35,6 +35,9 @@ body {
 #main {
   margin-top: 87px; //wrapper-masthead.height = 87px
   margin-bottom: 5px;
+  @include mobile {
+	margin-top: 68px;
+  }
 }
 
 #oops {

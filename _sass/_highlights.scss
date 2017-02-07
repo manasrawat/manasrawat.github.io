@@ -1,7 +1,7 @@
 /*
 This is a slightly modified version of the Zenburn syntax.css theme for Pygments, apapted for Rouge.
 */
-pre { line-height: 30px; font-family: monospace !important; padding: 10px; border-radius: 2px; }
+pre { line-height: 30px; font-family: monospace !important; padding: 10px; border-radius: 2px; font-size: 13px; }
 .highlight, .highlight figure, .highlight pre { margin-bottom: 0px; border: none; }
 .highlight code, .highlight pre { color: #dcdccc; background-color:#161E21; white-space: pre; overflow: auto; }
 .highlight .lineno { color: #37474F; }

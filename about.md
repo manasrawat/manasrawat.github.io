@@ -11,7 +11,7 @@ permalink: /about/
 }
 </style>
 
-![alt text](/res/pixelated.png)
+![alt text](/res/pixelated.jpg)
 
 My name is **Manas Rawat** (aka **munowse**), and I'm a student, Android developer and web designer. Nowdays, I primarily code in C#, for school projects, stepping aside from Java and Android development for a while. Aside from programming, in my free time, I'm usually either watching YouTube/television (usually *Arrowverse* series), communicating with friends via WhatsApp, "experimenting" with my phone, reading comics, and more.
 

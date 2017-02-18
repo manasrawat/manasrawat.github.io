@@ -136,8 +136,9 @@ img {
 }
 
 .date {
-  font-style: italic;
+  font-family: "Roboto", sans-serif;
   color: $gray;
+  text-transform: uppercase;
 }
 
 // Specify the color of the selection
@@ -175,7 +176,7 @@ img {
   z-index: 100;
   width: 100%;
   background-color: $headerGray;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 8px rgba(0,0,0,.4);
   a:hover, a:active {
 	color: $whiteGray !important;
   }
@@ -279,7 +280,7 @@ nav {
     right: 0;
     border-radius: 2px;
     padding: 10px;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	box-shadow: 0 2px 8px rgba(0,0,0,.4);
 
     a {
         color: $customGray;
@@ -357,6 +358,7 @@ nav {
 
 .wrapper-footer {
   background-color: #212121;
+  box-shadow: 0 -2px 8px rgba(0,0,0,.4);
 }
 
 footer {

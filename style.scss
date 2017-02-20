@@ -34,7 +34,10 @@ body {
 
 #main {
   margin-top: 87px; //wrapper-masthead.height = 87px
-  margin-bottom: 5px;
+  margin-bottom: auto;
+  @include mobile {
+    margin-top: 60px;
+  }
 }
 
 #oops {
@@ -265,40 +268,18 @@ nav {
         position: relative;
         display: inline-flex;
         text-align: right;
-
-        img {
-            height: 19px;
-        }
     }
+	a {
+      margin-left: 10px;
+	  display: inline-flex;
+	}
 }
 
-#menu-items {
-	margin-top: 40px;
-    display: none;
-    position: absolute;
-    background-color: #212121;
-    right: 0;
-    border-radius: 2px;
-    padding: 10px;
-	box-shadow: 0 2px 8px rgba(0,0,0,.4);
-
-    a {
-        color: $customGray;
-        display: block;
+.material-icons {
+  color: $white;
+  &:hover, &:active {
+        color: #cccccc;
     }
-}
-
-.nav-mobile:hover #menu-items {
-    display: block;
-}
-
-.menu-items {
-    display: none;
-    position: absolute;
-}
-
-.nav-mobile:hover .menu-items {
-    display: block;
 }
 
 .nav-desktop {

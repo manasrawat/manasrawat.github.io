@@ -266,7 +266,7 @@ nav {
     @include mobile {
         margin-left: auto;
         position: relative;
-        display: inline-flex;
+        display: flex;
         text-align: right;
     }
 	a {
@@ -278,8 +278,15 @@ nav {
 .material-icons {
   color: $white;
   &:hover, &:active {
-        color: #cccccc;
+        color: $whiteGray;
     }
+}
+
+.fa {
+  color: $white;
+  &:hover, &:active {
+    color: $whiteGray;
+  }
 }
 
 .nav-desktop {
@@ -361,6 +368,7 @@ footer {
     }
 	
 	a {
+	  display: flex;
       margin-left: 20px;
 	}
 

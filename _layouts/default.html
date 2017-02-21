@@ -7,9 +7,10 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="shortcut icon" href="/res/munowse.png">
+    <link rel="shortcut icon" href="/res/munowse.jpg">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	{% include analytics.html %}
 
@@ -27,14 +28,14 @@
 
             <!--desktop-->
             <nav class="nav-desktop">
-                <a id="blog" href="{{ site.baseurl }}">Blog</a>
+                <a id="blog" href="{{ site.baseurl }}/">Blog</a>
                 <a id="about" href="{{ site.baseurl }}/about">About</a>
 				<a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
             </nav>
 
             <!--mobile-->
             <div class="nav-mobile">
-				<a href="{{ site.baseurl }}/"><i class="material-icons">edit</i></a>
+				<a href="{{ site.baseurl }}/" style="margin-left: 0;"><i class="material-icons">edit</i></a>
                 <a href="{{ site.baseurl }}/about"><i class="material-icons">info</i></a>
 				<a href="{{ site.baseurl }}/archive"><i class="material-icons">menu</i></a>
             </div>
@@ -51,11 +52,11 @@
       <div class="container">
         <footer class="footer">
           <div class="icons-wrapper">
-            <a title="GitHub" href="https://github.com/munowse" style="margin-left: 0;"><img src="/res/icons/github.png"/></a>
-            <a title="RSS" href="{{ site.baseurl }}/feed.xml"><img src="/res/icons/feed.png"/></a>
-            <a title="Google" href="https://plus.google.com/+manasmrawat"><img src="/res/icons/google.png"/></a>
-			<a title="Quora" href="https://www.quora.com/profile/Manas-Manmohan-Rawat"><img src="/res/icons/quora.png"/></a>
-			<a title="Email" href="mailto:manas.rawat2002@gmail.com"><img src="/res/icons/email.png"/></a>
+            <a title="GitHub" href="https://github.com/munowse" style="margin-left: 0;"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a title="RSS" href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i></a>
+            <a title="Google" href="https://plus.google.com/+manasmrawat"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			<a title="Quora" href="https://www.quora.com/profile/Manas-Manmohan-Rawat"><i class="fa fa-quora" aria-hidden="true"></i></a>
+			<a title="Email" href="mailto:manas.rawat2002@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 		   </div><br />
           <span>© Manas Rawat 2016 • <a href="https://github.com/munowse/munowse.github.io">Source code</a><br />Powered by <a href="https://jekyllrb.com/">Jekyll</a> and hosted on GitHub pages</span>
         </footer>

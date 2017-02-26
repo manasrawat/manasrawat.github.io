@@ -296,18 +296,8 @@ nav {
 	}
 }
 
-.material-icons {
-  color: $white;
-  &:hover, &:active {
-        color: $whiteGray;
-    }
-}
-
 .fa {
   color: $white;
-  &:hover, &:active {
-    color: $whiteGray;
-  }
 }
 
 .nav-desktop {
@@ -391,6 +381,12 @@ footer {
 	a {
 	  display: flex;
       margin-left: 20px;
+	}
+	
+	.fa {
+	  &:hover, &:active {
+        color: $whiteGray;
+     }
 	}
 
   }

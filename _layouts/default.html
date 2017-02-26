@@ -17,32 +17,40 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
+    <div class="x">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
 				
-			<a title="Homepage" href="{{ site.baseurl }}/" id="home-click">
-				<img class="site-avatar" src="{{site.baseurl}}/res/munowse.jpg"/>
-				<h1 class="site-name">{{ site.name }}</h1>
-			 </a>
+		    <a title="Homepage" href="{{ site.baseurl }}/" id="home-click">
+			  <img class="site-avatar" src="{{site.baseurl}}/res/munowse.jpg"/>
+			  <h1 class="site-name">{{ site.name }}</h1>
+			</a>
 
             <!--desktop-->
             <nav class="nav-desktop">
-                <a id="blog" href="{{ site.baseurl }}/">Blog</a>
-                <a id="about" href="{{ site.baseurl }}/about">About</a>
-				<a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
+              <a id="blog" href="{{ site.baseurl }}/">Blog</a>
+              <a id="about" href="{{ site.baseurl }}/about">About</a>
+			  <a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
             </nav>
 
-            <!--mobile-->
             <div class="nav-mobile">
-				<a title="Blog" href="{{ site.baseurl }}/" style="margin-left: 0;"><i class="material-icons">edit</i></a>
-                <a title="About" href="{{ site.baseurl }}/about"><i class="material-icons">info</i></a>
-				<a title="Archive" href="{{ site.baseurl }}/archive"><i class="material-icons">menu</i></a>
+				<i onclick="myFunction()" class="fa fa-bars" aria-hidden="true"></i>
             </div>
 
-        </header>
+          </header>
+        </div>
       </div>
-    </div>
+	
+	  <!--mobile-->
+	  <div id="dropdown">
+        <a id="blog" href="{{ site.baseurl }}/">Blog</a>
+	    <br/>
+        <a id="about" href="{{ site.baseurl }}/about">About</a>
+	    <br/>
+	    <a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
+      </div>
+	</div>
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -62,6 +70,19 @@
         </footer>
       </div>
     </div>
+	
+	<script>
+function myFunction() {
+    var dropdown = document.getElementById('dropdown');
+	var displayx;
+    if (dropdown.style.display === 'block') {
+        displayx = 'none';
+    } else {
+        displayx = 'block';
+    }
+	dropdown.style.display = displayx;
+}
+</script>
 	
   </body>
 </html>

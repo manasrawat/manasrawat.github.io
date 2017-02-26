@@ -175,14 +175,17 @@ img {
 //
 
 .wrapper-masthead {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
   background-color: $headerGray;
   box-shadow: 0 2px 8px rgba(0,0,0,.4);
   a:hover, a:active {
 	color: $whiteGray !important;
   }
+}
+
+.x {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 
 .masthead {
@@ -261,6 +264,19 @@ nav {
   }
 }
 
+#dropdown {
+    display: none;
+    background-color: #212121; 
+    padding: 10px;
+	box-shadow: 0 2px 8px rgba(0,0,0,.4);
+    a {
+      color: $white;
+	  &:hover, &:active {
+        color: $whiteGray !important;
+      }
+    }
+}
+
 .nav-mobile {
     display: none;
     @include mobile {
@@ -269,9 +285,14 @@ nav {
         display: flex;
         text-align: right;
     }
-	a {
-      margin-left: 10px;
-	  display: inline-flex;
+	i {
+	  cursor: pointer;
+	  -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+      user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 	}
 }
 

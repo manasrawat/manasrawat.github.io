@@ -34,7 +34,7 @@
             </nav>
 
             <div class="nav-mobile">
-				<i onclick="myFunction()" class="fa fa-bars" aria-hidden="true"></i>
+				<i onclick="toggleDropdown()" class="fa fa-bars" aria-hidden="true"></i>
             </div>
 
           </header>
@@ -65,14 +65,24 @@
 			<a title="Quora" href="https://www.quora.com/profile/Manas-Manmohan-Rawat"><i class="fa fa-quora" aria-hidden="true"></i></a>
 			<a title="Email" href="mailto:manas.rawat2002@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 		   </div><br />
-          <span>© Manas Rawat 2016 • <a href="https://github.com/munowse/munowse.github.io">Source code</a><br />Powered by <a href="https://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub Pages</a></span>
+          <span>© Manas Raawat 2016 • <a href="https://github.com/munowse/munowse.github.io">Source code</a><br />Powered by <a href="https://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub Pages</a></span>
         </footer>
       </div>
     </div>
 	
 	<script>
-      function myFunction() {
-        var dropdown = document.getElementById('dropdown');
+      var dropdown = document.getElementById('dropdown');
+	  
+	  document.addEventListener('DOMContentLoaded', function () {
+	    window.addEventListener('resize', function (){
+          if (window.innerWidth >= 640) {
+	        dropdown.style.display = 'none';
+		    //console.log("resized");
+	      }
+        });
+	  });
+	  
+      function toggleDropdown() {
 	    var displayx;
         if (dropdown.style.display === 'block') {
           displayx = 'none';

@@ -279,7 +279,7 @@ nav {
     }
 }
 
-.nav-mobile {
+#nav-mobile {
     display: none;
     @include mobile {
         margin-left: auto;
@@ -287,10 +287,9 @@ nav {
         display: flex;
         text-align: right;
     }
-	i {
-	  cursor: pointer;
-      user-select: none;
-	}
+	cursor: pointer;
+    user-select: none;
+	font-size: 28px;
 }
 
 .fa {

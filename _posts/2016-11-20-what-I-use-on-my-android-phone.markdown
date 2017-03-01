@@ -20,7 +20,7 @@ TWRP FTW! Among the many, many reasons why I use this (including it being like o
 <br>
 
 ### Launcher
-I use **Nova Launcher Prime with TeslaUnread** as my homescreen launcher. What appealed this to me wasn't actually the customization - I prefer to go simple with launchers. Instead, it's simplicity, speed, efficeny, Unread notification count and Android 7.1 app shortcuts support (something Trehbuchet 7.1 has yet to include) is what drew me to it. I would highly recommend it to anyone considering purchasing Prime.
+I use **Nova Launcher Prime with TeslaUnread** as my homescreen launcher. What appealed this to me wasn't actually the customization - I prefer to go simple with launchers. Instead, it's simplicity, speed, efficiency, Unread notification count and Android 7.1 app shortcuts support (something Trehbuchet 7.1 has yet to include) is what drew me to it. I would highly recommend it to anyone considering purchasing Prime.
 <br>
 <br>
 

@@ -17,7 +17,7 @@ if (!bloggerIsCool) {
   while (true) {
     alert("baaad");
   }
-};
+}
 {% endhighlight %}
 <br>
 Blogger. It was once the world's largest blogging platform for, well, blogging. Creative name? Check - must've taken forever. Fully customizable? Check. I wish. Don't take me wrong - I love a lot of what Google makes. Search? Obviously. Gmail? Pretty neat. Android & Play - Who doesn't? Now, I attempted to use as much HTML I knew in my first blog. It went well. Until it kept adding back junk such as comments, scripts and other stuff I didn't need. Useless code was being forced upon my blog - and very soon, I didn't feel like blogging.

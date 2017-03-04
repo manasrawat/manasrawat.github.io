@@ -1,9 +1,17 @@
 ---
 layout: default
 ---
+<style>
+.title {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+</style>
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  <h1 class="title">{{ page.title }}</h1>
   
   <span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
 

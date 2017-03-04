@@ -16,8 +16,8 @@
   </head>
 
   <body>
-    <div class="x">
-      <div class="wrapper-masthead">
+    <div id="wrapper-upper">
+      <div id="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
 				
@@ -29,11 +29,10 @@
             <!--desktop-->
             <nav class="nav-desktop">
               <a id="blog" href="{{ site.baseurl }}/">Blog</a>
-              <a id="about" href="{{ site.baseurl }}/about">About</a>
 			  <a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
+              <a id="about" href="{{ site.baseurl }}/about">About</a>
             </nav>
 
-            
 		    <i onclick="toggleDropdown()" class="fa fa-bars" id="nav-mobile" aria-hidden="true"></i>
 
           </header>
@@ -41,12 +40,14 @@
       </div>
 	
 	  <!--mobile-->
-	  <div id="dropdown">
-        <a id="blog" href="{{ site.baseurl }}/">Blog</a>
-	    <br/>
-        <a id="about" href="{{ site.baseurl }}/about">About</a>
-	    <br/>
-	    <a style="margin: 0;" id="archive" href="{{ site.baseurl }}/archive">Archive</a>
+	  <div id="wrapper-dropdown">
+	    <div class="container">
+          <a id="blog" href="{{ site.baseurl }}/">Blog</a>
+	      <br/>
+          <a id="archive" href="{{ site.baseurl }}/archive">Archive</a>
+	      <br/>
+	      <a style="margin: 0;" id="about" href="{{ site.baseurl }}/about">About</a>
+		  </div>
       </div>
 	</div>
 
@@ -54,10 +55,10 @@
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
+    <div id="wrapper-footer">
       <div class="container">
-        <footer class="footer">
-          <div class="icons-wrapper">
+        <footer>
+          <div id="wrapper-icons">
             <a title="GitHub" href="https://github.com/munowse" style="margin-left: 0;"><i class="fa fa-github" aria-hidden="true"></i></a>
             <a title="RSS" href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i></a>
             <a title="Google" href="https://plus.google.com/+manasmrawat"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
@@ -69,28 +70,7 @@
       </div>
     </div>
 	
-	<script>
-      var dropdown = document.getElementById('dropdown');
-	  
-	  document.addEventListener('DOMContentLoaded', function () {
-	    window.addEventListener('resize', function (){
-          if (window.innerWidth > 640) {
-	        dropdown.style.display = 'none';
-		    //console.log("resized");
-	      }
-        });
-	  });
-	  
-      function toggleDropdown() {
-	    var displayx;
-        if (dropdown.style.display === 'block') {
-          displayx = 'none';
-        } else {
-          displayx = 'block';
-        }
-	    dropdown.style.display = displayx;
-      }
-    </script>
+	{% include dropdown.html %}
 	
   </body>
 </html>

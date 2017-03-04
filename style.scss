@@ -136,13 +136,14 @@ img {
 }
 
 #main {
-  margin-top: 87px;; //wrapper-masthead.height = 87px
+  margin-top: 87px; //wrapper-masthead.height = 87px
   margin-bottom: auto;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
   padding-top: 35px;
   @include mobile {
+    margin-top: 80px; //wrapper-masthead.mobile-height = 80px
     padding-top: 20px;
   }
 }

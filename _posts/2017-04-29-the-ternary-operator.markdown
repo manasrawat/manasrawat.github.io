@@ -3,7 +3,6 @@ layout: post
 title:  "The Ternary Operator"
 date:   2017-04-29 00:00:00 +0000
 category: code
-description: "If only I found about it before..."
 comments: true
 ---
 If/Else If/Else statements. The code that everyone hates but has to use. Since I started programming, in nearly every single project of mine, I had to use these messy, clunky statements. However, a few weeks ago, I came across something I wish I did a long time ago. Some may call it the conditional operator. Others may refer to it as inline if. But everyone (who uses it anyway - I'm sure many coders do, but the aim of this post is to get more people to) knows it as the **ternary operator**.

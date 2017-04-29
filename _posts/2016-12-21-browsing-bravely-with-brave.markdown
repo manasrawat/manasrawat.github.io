@@ -3,7 +3,6 @@ layout: post
 title:  "Browsing bravely with Brave"
 date:   2016-12-21 00:00:00 +0000
 category: general
-description: "The Chromium Firefox"
 comments: true
 ---
 I've been through a lot of browsers on my computer this year, let alone my phone. From Chrome to Firefox to Chrome to Chromium to (very, very, very briefly) Torch to (very briefly) Liri and then back to Chromium - it's been quite a ride. But I've finally found the right browser. Brave.

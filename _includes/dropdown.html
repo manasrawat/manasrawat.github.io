@@ -1,21 +1,13 @@
 <script>
   var dropdown = document.getElementById('wrapper-dropdown');
-	  
+	 
   document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('resize', function (){
-    if (window.innerWidth > 640) {
-      dropdown.style.display = 'none';
-	  //console.log("resized");
-	  }
+	  if (window.innerWidth > 640) dropdown.style.display = 'none';
     });
   });
 	  
   function toggleDropdown() {
-    var displayx;
-    if (dropdown.style.display === 'block') {
-      dropdown.style.display = 'none';
-    } else {
-      dropdown.style.display = 'block';
-    }
+    dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
   }
 </script>

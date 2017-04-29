@@ -9,23 +9,13 @@
 
 //BASE
 
-html {
+html, body {
+  height: 100%;
   font-size: 100%;
   font-family: $roboto;
-}
-
-body {
   background: $white;
   font: 18px/1.4 $roboto;
   color: $darkGray;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -110,6 +100,7 @@ img {
 //WRAPPERS + CONTAINERS
 
 #wrapper-upper {
+  top: 0;
   position: fixed;
   z-index: 100;
   width: 100%;
@@ -135,13 +126,15 @@ img {
     }
 }
 
+#wrap {
+  min-height: 100%;
+  padding-bottom: 115px;
+}
+
 #main {
-  margin-top: 87px; //wrapper-masthead.height = 87px
+  overflow: auto;
+  padding-top: 122px; //wrapper-masthead.height = 87px; + 35;
   margin-bottom: auto;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding-top: 35px;
   @include mobile {
     margin-top: 80px; //wrapper-masthead.mobile-height = 80px
     padding-top: 20px;
@@ -149,6 +142,11 @@ img {
 }
 
 #wrapper-footer {
+  position: relative;
+  margin-top: -115px;
+  clear: both;
+  bottom: 0;
+  width: 100%;
   background-color: #212121;
 }
 
@@ -363,6 +361,17 @@ nav {
 .clearfix:after {
   clear: both;
 }
+
+//Thank you Jezen Thomas for the CSS Sticky Footer code: http://stackoverflow.com/a/18740003
+//Opera Fix thanks to Maleika (Kohoutec)
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;/* thank you Erik J - negate effect of float*/
+}
+
 //More imports
 @import "highlights";
 @import "svg-icons";

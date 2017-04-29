@@ -17,10 +17,8 @@ CustomTile tile = new CustomTile.Builder(this)
     .build();
 CMStatusBarManager.getInstance(this).publishTile(id, tile);
 {% endhighlight %}
-<br>
 The full code can be accessed at the <a href="https://github.com/cyource/cyapps_Quickile">github repo</a>. All you need to do to access the SDK's packages is add this line to your /app ```build.gradle```:
 {% highlight gradle linenos %}
 compile 'org.cyanogenmod:platform.sdk:4.0.1' //Use the latest version, rather than 4.0.1
 {% endhighlight %}
-<br>
 Check out the Platform SDK's offical documentations and official GitHub repository for more information.

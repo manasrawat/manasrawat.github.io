@@ -19,7 +19,6 @@ if (!bloggerIsCool) {
   }
 }
 {% endhighlight %}
-<br>
 Blogger. It was once the world's largest blogging platform for, well, blogging. Creative name? Check - must've taken forever. Fully customizable? Check. I wish. Don't take me wrong - I love a lot of what Google makes. Search? Obviously. Gmail? Pretty neat. Android & Play - Who doesn't? Now, I attempted to use as much HTML I knew in my first blog. It went well. Until it kept adding back junk such as comments, scripts and other stuff I didn't need. Useless code was being forced upon my blog - and very soon, I didn't feel like blogging.
 <br>
 <br>
@@ -34,5 +33,4 @@ Yesterday, I got out my computer - and finished the PC layout of the blog. I was
 <link rel="shortcut icon" type="image/png" href="[[site.url]]/favicon.png">
 <!--Note: [ = {-->
 {% endhighlight %}
-<br>
 That... worked. It worked everywhere - apart from IE. So I used a png instead, and it worked - but then I found out it didn't work in Firefox. I then 'experimented' a little by removing ```'[[site.url]]'``` - and it... worked. I apologise to all the Firefox users - I just can't be asked to fix it now - but I'm pretty satisifed my blog's done  - even more so due to the fact that on top of the base Jekyll theme, using mdlite, I coded it. I coded my own blog.

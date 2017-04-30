@@ -33,4 +33,4 @@ Yesterday, I got out my computer - and finished the PC layout of the blog. I was
 <link rel="shortcut icon" type="image/png" href="[[site.url]]/favicon.png">
 <!--Note: [ = {-->
 {% endhighlight %}
-That... worked. It worked everywhere - apart from IE. So I used a png instead, and it worked - but then I found out it didn't work in Firefox. I then 'experimented' a little by removing ```'[[site.url]]'``` - and it... worked. I apologise to all the Firefox users - I just can't be asked to fix it now - but I'm pretty satisifed my blog's done  - even more so due to the fact that on top of the base Jekyll theme, using mdlite, I coded it. I coded my own blog.
+That... worked. It worked everywhere - apart from IE. So I used a png instead, and it worked - but then I found out it didn't work in Firefox. I then 'experimented' a little by removing ```'[[site.url]]'``` - and it... worked. I apologise to all the Firefox users - I just can't be asked to fix it now - but I'm pretty satisifed my blog's done  - even more so due to the fact that on top of the base Jekyll theme *(update: rewrote the blog in Januray 2017 without mdl)*, I coded it. I coded my own blog.

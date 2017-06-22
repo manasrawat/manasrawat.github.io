@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ressurecting and Remixing my Android"
+title:  "Resurrecting and Remixing my Android"
 date:   2017-06-22 00:00:00 +0000
 category: android
 comments: true

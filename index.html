@@ -19,13 +19,14 @@ layout: default
       <h1 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 	  
 	  <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+	  <a style="margin-left: 5px" href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">0 Comments</a>
 
       <div class="entry">
 		{{ post.content | truncate: 400 }}
       </div>
 
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-		<a href="/archive#{{post.category}}" class="read-more">{{post.category}}</a>
+		<a href="/archive#{{post.category}}" class="read-more">{{ post.category }}</a>
 
     </article>
   {% endfor %}

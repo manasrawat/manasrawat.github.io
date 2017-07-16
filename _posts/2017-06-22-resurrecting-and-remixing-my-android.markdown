@@ -15,7 +15,7 @@ I've heard some complaints about RR that state, even though it's the top dog whe
 
 So far, I haven't encountered any issues in this build. Well, apart from the custom tiles (below the line) dissapearing halfway through the process of being dragged up to the panel. But other than that - everything works like a charm. It sure looks like I'm gonna be sticking with this ROM for quite a while.
 
-<img style="float: left; width: 50%;" src="/res/posts_res/RR.jpg"/>
-<img style="width: 50%;" src="/res/posts_res/LockScreen.jpg"/>
-<img style="float: left; width: 50%;" src="/res/posts_res/Customize.jpg"/>
-<img style="width: 50%;" src="/res/posts_res/Recents.jpg"/>
+<img style="float: left; width: 50%;" src="/res/posts/RR.jpg"/>
+<img style="width: 50%;" src="/res/posts/LockScreen.jpg"/>
+<img style="float: left; width: 50%;" src="/res/posts/Customize.jpg"/>
+<img style="width: 50%;" src="/res/posts/Recents.jpg"/>

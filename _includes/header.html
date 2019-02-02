@@ -1,0 +1,23 @@
+<script>
+	//ty lukeed (https://stackoverflow.com/a/28402080/7482659)
+	(function (){
+		var previousScroll = 0;
+		var navbar = document.getElementById('wrapper-upper'), 
+			navClasses = navbar.classList;
+		window.addEventListener('scroll', function(e) {
+			if (window.innerWidth > document.documentElement.clientWidth) {
+				var currentScroll = window.scrollY;
+				var isDown = currentScroll > previousScroll;
+
+				if (isDown && !navClasses.contains('scrolled')) {
+					navClasses.add('scrolled');
+				} else if (!isDown ){
+					navClasses.remove('scrolled');
+				}
+				previousScroll = currentScroll;
+			} else {
+				navClasses.remove('scrolled');
+			}
+		});
+	}());
+</script>

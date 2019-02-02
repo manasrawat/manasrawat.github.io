@@ -1,4 +1,4 @@
-name: Manas Rawat
+title: Manas Rawat
 email: manas.rawat2002@gmail.com
 description: > 
   A blog on Android, computer programming and more.
@@ -17,5 +17,5 @@ defaults:
       type: "posts"
     values:
       category: general
-gems:
+plugins:
   - jekyll-feed

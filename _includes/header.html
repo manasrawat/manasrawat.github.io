@@ -5,7 +5,7 @@
 		var navbar = document.getElementById('wrapper-upper'), 
 			navClasses = navbar.classList;
 		window.addEventListener('scroll', function(e) {
-			if (window.innerWidth > document.documentElement.clientWidth) {
+			if (window.innerHeight < document.documentElement.scrollHeight) {
 				var currentScroll = window.scrollY;
 				var isDown = currentScroll > previousScroll;
 

@@ -114,9 +114,9 @@ img {
 }
 
 #wrapper-upper.scrolled {
-  -webkit-transform: translate3d(0,-87.6px,0);
-  -moz-transform: translate3d(0,-87.6px,0);
-  transform: translate3d(0,-87.6px,0);
+  -webkit-transform: translate3d(0,-87px,0);
+  -moz-transform: translate3d(0,-87px,0);
+  transform: translate3d(0,-87px,0);
 }
 
 #wrapper-masthead {
@@ -287,6 +287,16 @@ nav {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  @include mobile {
+    height: auto;
+  }
 }
 
 .site-description {
